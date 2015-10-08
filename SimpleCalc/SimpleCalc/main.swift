@@ -35,10 +35,6 @@ func splitBySpaces(incoming:String) -> [String]
 
 println("Welcome to Alex Schenck's SimpleCalc! Enter your operation now.")
 
-let q = input()
-println(q)
-println(convertToDouble(q))
-
 // First line entered by user split into an array by spaces
 var firstUserInput = splitBySpaces(input())
 
